@@ -15,7 +15,7 @@ export default function Option() {
         onMouseLeave={() => {
           sethover(false);
         }}
-        className={`flex items-center gap-1 transition-all ease-in duration-200 ${hover ? "text-[#4a7dc4]" : "text-black"}`}
+        className={`flex items-center gap-1 transition-all ease-in duration-200 ${hover ? "text-text-primary" : "text-black"}`}
       >
         Services
         <ChevronDown

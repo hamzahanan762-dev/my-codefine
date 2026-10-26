@@ -124,7 +124,7 @@ const HeroBackground = () => {
   }, []);
 
   return (
-    <div className="absolute inset-0 pointer-events-none overflow-hidden z-0 h-[350vh] select-none w-full -mx-[50vw] left-1/2 right-1/2">
+    <div className="absolute inset-0 pointer-events-none overflow-hidden z-0 h-[350vh] select-none w-full mx-[-50vw] left-1/2 right-1/2">
       {/* HTML5 Canvas for Digital Rain + Cursor Particle Trail */}
       <canvas
         ref={canvasRef}

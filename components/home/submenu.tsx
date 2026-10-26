@@ -22,14 +22,14 @@ export default function Submenu() {
         className={`h-[10vh] p-3 rounded-xl relative z-700 w-full flex items-center gap-3 ${hover === 1 ? "bg-gray-100" : "bg-none"} transition-all ease-in duration-100`}
       >
         <div
-          className={`h-full ${hover === 1 ? "bg-[#4a7dc4] text-white" : "bg-[#f4f4f4] text-[#4a7dc4]"}  w-9 flex justify-center items-center rounded-xl transition-all ease-in duration-100`}
+          className={`h-full ${hover === 1 ? "bg-text-primary text-white" : "bg-[#f4f4f4] text-text-primary"}  w-9 flex justify-center items-center rounded-xl transition-all ease-in duration-100`}
         >
           <Settings size={16} strokeWidth={2} />
         </div>
         <Link href={`/categories/1`}>
           <div>
             <h5
-              className={`font-semibold ${hover === 1 ? "text-[#4a7dc4]" : "text-black"}`}
+              className={`font-semibold ${hover === 1 ? "text-text-primary" : "text-black"}`}
             >
               Personalized Solution
             </h5>
@@ -51,13 +51,13 @@ export default function Submenu() {
         className={`h-[10vh] p-3 rounded-xl w-full flex items-center gap-3 ${hover === 2 ? "bg-gray-100" : "bg-none"} transition-all ease-in duration-100`}
       >
         <div
-          className={`h-full ${hover === 2 ? "bg-[#4a7dc4] text-white" : "bg-[#f4f4f4] text-[#4a7dc4]"}  w-9 flex justify-center items-center rounded-xl transition-all ease-in duration-100`}
+          className={`h-full ${hover === 2 ? "bg-text-primary text-white" : "bg-[#f4f4f4] text-text-primary"}  w-9 flex justify-center items-center rounded-xl transition-all ease-in duration-100`}
         >
           <MessageSquareCode size={16} strokeWidth={2} />
         </div>
         <div>
           <h5
-            className={`font-semibold ${hover === 2 ? "text-[#4a7dc4]" : "text-black"}`}
+            className={`font-semibold ${hover === 2 ? "text-text-primary" : "text-black"}`}
           >
             Web App Development
           </h5>
@@ -75,13 +75,13 @@ export default function Submenu() {
         className={`h-[10vh] p-3 rounded-xl w-full flex items-center gap-3 ${hover === 3 ? "bg-gray-100" : "bg-none"} transition-all ease-in duration-100`}
       >
         <div
-          className={`h-full ${hover === 3 ? "bg-[#4a7dc4] text-white" : "bg-[#f4f4f4] text-[#4a7dc4]"}  w-9 flex justify-center items-center rounded-xl transition-all ease-in duration-100`}
+          className={`h-full ${hover === 3 ? "bg-text-primary text-white" : "bg-[#f4f4f4] text-text-primary"}  w-9 flex justify-center items-center rounded-xl transition-all ease-in duration-100`}
         >
           <RiCloudFill size={16} strokeWidth={2} />
         </div>
         <div>
           <h5
-            className={`font-semibold ${hover === 3 ? "text-[#4a7dc4]" : "text-black"}`}
+            className={`font-semibold ${hover === 3 ? "text-text-primary" : "text-black"}`}
           >
             SaaS Development
           </h5>
@@ -101,13 +101,13 @@ export default function Submenu() {
         className={`h-[10vh] p-3 rounded-xl w-full flex items-center gap-3 ${hover === 4 ? "bg-gray-100" : "bg-none"} transition-all ease-in duration-100`}
       >
         <div
-          className={`h-full ${hover === 4 ? "bg-[#4a7dc4] text-white" : "bg-[#f4f4f4] text-[#4a7dc4]"}  w-9 flex justify-center items-center rounded-xl transition-all ease-in duration-100`}
+          className={`h-full ${hover === 4 ? "bg-text-primary text-white" : "bg-[#f4f4f4] text-text-primary"}  w-9 flex justify-center items-center rounded-xl transition-all ease-in duration-100`}
         >
           <MessageSquareCode size={16} strokeWidth={2} />
         </div>
         <div>
           <h5
-            className={`font-semibold ${hover === 4 ? "text-[#4a7dc4]" : "text-black"}`}
+            className={`font-semibold ${hover === 4 ? "text-text-primary" : "text-black"}`}
           >
             CRM Development
           </h5>
@@ -127,13 +127,13 @@ export default function Submenu() {
         className={`h-[10vh] p-3 rounded-xl w-full flex items-center gap-3 ${hover === 5 ? "bg-gray-100" : "bg-none"} transition-all ease-in duration-100`}
       >
         <div
-          className={`h-full ${hover === 5 ? "bg-[#4a7dc4] text-white" : "bg-[#f4f4f4] text-[#4a7dc4]"}  w-9 flex justify-center items-center rounded-xl transition-all ease-in duration-100`}
+          className={`h-full ${hover === 5 ? "bg-[text-primary] text-white" : "bg-[#f4f4f4] text-[text-primary]"}  w-9 flex justify-center items-center rounded-xl transition-all ease-in duration-100`}
         >
           <RiShoppingCart2Fill size={16} strokeWidth={2} />
         </div>
         <div>
           <h5
-            className={`font-semibold ${hover === 5 ? "text-[#4a7dc4]" : "text-black"}`}
+            className={`font-semibold ${hover === 5 ? "text-[text-primary]" : "text-black"}`}
           >
             ECommerce Solutions
           </h5>
@@ -153,13 +153,13 @@ export default function Submenu() {
         className={`h-[10vh] p-3 rounded-xl w-full flex items-center gap-3 ${hover === 6 ? "bg-gray-100" : "bg-none"} transition-all ease-in duration-100`}
       >
         <div
-          className={`h-full ${hover === 6 ? "bg-[#4a7dc4] text-white" : "bg-[#f4f4f4] text-[#4a7dc4]"}  w-9 flex justify-center items-center rounded-xl transition-all ease-in duration-100`}
+          className={`h-full ${hover === 6 ? "bg-text-primary text-white" : "bg-[#f4f4f4] text-[text-primary]"}  w-9 flex justify-center items-center rounded-xl transition-all ease-in duration-100`}
         >
           <RiKeyboardBoxFill size={16} strokeWidth={2} />
         </div>
         <div>
           <h5
-            className={`font-semibold ${hover === 6 ? "text-[#4a7dc4]" : "text-black"}`}
+            className={`font-semibold ${hover === 6 ? "text-text-primary" : "text-black"}`}
           >
             POS Development
           </h5>
@@ -179,13 +179,13 @@ export default function Submenu() {
         className={`h-[10vh] p-3 rounded-xl w-full flex items-center gap-3 ${hover === 7 ? "bg-gray-100" : "bg-none"} transition-all ease-in duration-100`}
       >
         <div
-          className={`h-full ${hover === 7 ? "bg-[#4a7dc4] text-white" : "bg-[#f4f4f4] text-[#4a7dc4]"}  w-9 flex justify-center items-center rounded-xl transition-all ease-in duration-100`}
+          className={`h-full ${hover === 7 ? "bg-[text-primary] text-white" : "bg-[#f4f4f4] text-[text-primary]"}  w-9 flex justify-center items-center rounded-xl transition-all ease-in duration-100`}
         >
           <Globe size={16} strokeWidth={2} />
         </div>
         <div>
           <h5
-            className={`font-semibold ${hover === 7 ? "text-[#4a7dc4]" : "text-black"}`}
+            className={`font-semibold ${hover === 7 ? "text-[text-primary]" : "text-black"}`}
           >
             Website Development
           </h5>
