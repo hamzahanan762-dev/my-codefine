@@ -1,5 +1,5 @@
 import Image from "next/image";
-import HeroImage from "@/public/images/hero-showcase.avif";
+import HeroImage from "@/public/images/hero-showcase.png";
 import { RiLinkedinBoxFill } from "@remixicon/react";
 import { ArrowUpRight } from "lucide-react";
 export default function HeroImg() {

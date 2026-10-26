@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Logo from "@/public/images/TextmarkTransaprentLight.avif";
+import Logo from "@/public/images/TextmarkTransaprentLight.png";
 import { RiInstagramLine, RiLinkedinFill } from "@remixicon/react";
 export default function Footer() {
   return (

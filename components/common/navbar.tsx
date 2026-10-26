@@ -1,4 +1,4 @@
-import Logo from "@/public/images/TextmarkTransparent.avif";
+import Logo from "@/public/images/TextmarkTransparent.png";
 import Image from "next/image";
 import { ArrowUpRight, ChevronDown } from "lucide-react";
 import Option from "@/components/home/navoption";
