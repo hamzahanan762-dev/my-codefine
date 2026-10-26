@@ -4,7 +4,7 @@ import { RiLinkedinBoxFill } from "@remixicon/react";
 import { ArrowUpRight } from "lucide-react";
 export default function HeroImg() {
   return (
-    <div className="h-[130vh] px-10 mt-13 group relative z-500">
+    <div className="h-[130vh] px-10 mt-13 group relative z-200">
       <div className="h-full w-full bg-white rounded-3xl p-3">
         <div className="h-full w-full rounded-2xl overflow-hidden grid">
           <Image

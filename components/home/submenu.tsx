@@ -11,7 +11,7 @@ import Link from "next/link";
 export default function Submenu() {
   const [hover, sethover] = useState(0);
   return (
-    <div>
+    <div className="">
       <div
         onMouseEnter={() => {
           sethover(1);
@@ -19,7 +19,7 @@ export default function Submenu() {
         onMouseLeave={() => {
           sethover(0);
         }}
-        className={`h-[10vh] p-3 rounded-xl w-full flex items-center gap-3 ${hover === 1 ? "bg-gray-100" : "bg-none"} transition-all ease-in duration-100`}
+        className={`h-[10vh] p-3 rounded-xl relative z-700 w-full flex items-center gap-3 ${hover === 1 ? "bg-gray-100" : "bg-none"} transition-all ease-in duration-100`}
       >
         <div
           className={`h-full ${hover === 1 ? "bg-[#4a7dc4] text-white" : "bg-[#f4f4f4] text-[#4a7dc4]"}  w-9 flex justify-center items-center rounded-xl transition-all ease-in duration-100`}
